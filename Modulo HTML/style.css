@@ -62,7 +62,7 @@ hr {
     display: none;
 }
 
-.checkB:checked ~.menu-lateral{
+.checkB:checked ~.lateral-menu{
     transform: translateX(300px);
 }
 
