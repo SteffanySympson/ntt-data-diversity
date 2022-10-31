@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;403&display=swap');
+/* GLOBAL SETTINGS PAGE  */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;403&display=swap');
 
 * {
     padding: 0;  
@@ -19,6 +20,7 @@ html, body {
 
 }
 
+/* GLOBAL SETTINGS HEADER */
 
 .header-components{
     display: flex;
@@ -61,6 +63,8 @@ hr {
 .img{
     width: 160px;
 }
+
+/* GLOBAL SETTINGS SIDEBAR */
 
 .checkB {
     display: none;
@@ -112,52 +116,7 @@ label {
 
 }
 
-.container{
-    height: 100%;
-    margin: 0 auto;
-    padding: 50px;
-    width: 50%; 
-}
-
-.article-content{
-    text-align: justify;
-    padding: 10px;
-    line-height: 2rem;
-    font-weight: 500;
-}
-
-.article-title{
-    padding: 20px 0px 20px 0px;
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    text-shadow: #942a0c 1px 2px 3px;
-    letter-spacing: 5px;
-    text-align: center;
-}
-
-.first:first-letter {
-    font-size: 40px;
-    font-weight: bold;
-    color: rgba(180, 92, 36, 1);
-    text-shadow: #600 1px 2px 3px;
-    letter-spacing: 5px;
-}
-
-.aside{
-    position: fixed;
-    top: 30%;
-    right: 1px;
-    width: 20%;
-    height: 38%;
-}
-
-.image-aside{
-    width: 100%;
-    height: 100%;
-}
-
-
+/* GLOBAL SETTINGS FOOTER */
 
 footer i {
 	color: #d32a2a;
@@ -188,13 +147,38 @@ a:hover{
 }
 
 
+/* SETTINGS ASIDE */
+
+.aside{
+    position: fixed;
+    top: 30%;
+    right: 1px;
+    width: 20%;
+    height: 38%;
+}
+
+.image-aside{
+    width: 100%;
+    height: 100%;
+}
+
+/* GLOBAL SETTING MAIN  */
+
+.container{
+    height: 100%;
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%; 
+}
+
+/* SETTINGS HOME PAGE */
+
 .cards {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 
 .card {
     margin: 40px;
@@ -258,5 +242,213 @@ a:hover{
 .source-citation-link:hover{
     color: #942a0c;
 }
+
+/* SETTINGS THE ABOUT US PAGE */
+.article-content{
+    text-align: justify;
+    padding: 10px;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.article-title{
+    padding: 20px 0px 20px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: #942a0c 1px 2px 3px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.first:first-letter {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(180, 92, 36, 1);
+    text-shadow: #600 1px 2px 3px;
+    letter-spacing: 5px;
+}
+
+
+/* PAGE SETTINGS OPENING HOURS */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.p-hours{
+    text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/*PAGE SETTINGS CONTACT */
+
+.img-contact{
+    width:110px;
+}
+
+.form {
+    max-width: 650px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.form input, form textarea {
+    border: 0;
+    outline: 0;
+    padding: 0.8em 0.3em;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+    font-size:16px;
+    color:#424242;
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    resize: none;
+}
+
+.form input{
+    margin-bottom: 2em;
+    margin-top:1.2em;
+}
+
+.form input:focus, .form textarea:focus {
+    color:#000000; 
+    -moz-box-shadow: 0 0px 2px #942a0c !important;
+    -webkit-box-shadow: 0 0px 2px #942a0c !important;
+    box-shadow: 0 0px 2px #942a0c !important;
+
+}
+
+.form .btn-submit {
+    color: #fff;
+    background: rgba(180, 92, 36, 1) ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.form .btn-submit:hover {
+    background-color:#424242;
+    -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+    box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+
+.form textarea {
+    height: 174px;
+}
+
+.half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+}
+
+.right { width:50%;}
+
+.left  { margin-right:2%; }
+
+@media (max-width: 768px) {
+    .half { 
+        width:100%;
+        float:none;
+        margin-bottom:0;
+    }
+}
+
+/* MAP STYLIST */
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:100%;
+    height:400px;
+}
+
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    width:100%;
+    height:400px;
+}
+
+.gmap_iframe{
+    height:400px!important;
+}
+
+/* SETTINGS SOCIAL BOOTONS */
+
+.btn_social { 
+
+	width:100%; 
+	float:left; 
+	display:flex; 
+	margin:auto; 
+}
+
+.btn_social ul  { 
+
+	width:auto; 
+	margin:auto; 
+	float:left; 
+	display:block; 
+}
+
+.btn_social ul li  { 
+
+	position:relative; 
+	background:#a1a0a0; 
+	list-style:none; 
+	float:left; 
+	margin:5px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:1.5em; 
+	text-align:center; 
+}
+
+.btn_social ul li a  { 
+
+	width:50px; 
+	height:50px; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+
+}
+
+.btn_social ul li::before { 
+
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:#942a0c; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:#ffffff; }
 
 
